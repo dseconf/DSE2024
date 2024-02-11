@@ -10,4 +10,4 @@ University of Wisconsin-Madison
 
 Application deadline: May 1, 2024
 
-See [**dseconf.org**](dseconf.org) for details
+See [**dseconf.org**](https://dseconf.org) for details
