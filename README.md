@@ -8,6 +8,4 @@ University of Wisconsin-Madison
 
 **August 3-9, 2024**
 
-Application deadline: May 1, 2024
-
-See [**dseconf.org**](https://dseconf.org) for details
+See [**dseconf.org/dse2024**](https://https://dseconf.org/dse2024) for details
