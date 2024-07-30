@@ -18,6 +18,3 @@ I will try to upload the presentation slides at least 24 hours before the presen
 
 ## Code
 I am fortunate to have [Xing Xu](https://github.com/2xu2) working with me on various projects. He is putting together some jupyter notebooks (in Julia) that walk us through some of the models. This code will be available in the "code" folder in this repo.
-
-
-)/
