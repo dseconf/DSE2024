@@ -2,6 +2,8 @@
 
 Lecture 13 // Thursday, August 8 // 13:00&ndash;14:20
 
+**Status:** (7/30/2024) Readings are posted. Slides and code in the works...
+
 Hello! This repo will (eventually) contain all of the materials related to my presentation. 
 
 ## Readings
@@ -18,3 +20,4 @@ I will try to upload the presentation slides at least 24 hours before the presen
 I am fortunate to have [Xing Xu](https://github.com/2xu2) working with me on various projects. He is putting together some jupyter notebooks (in Julia) that walk us through some of the models. This code will be available in the "code" folder in this repo.
 
 
+)/
