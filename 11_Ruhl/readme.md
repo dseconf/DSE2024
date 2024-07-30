@@ -1,8 +1,8 @@
 # Materials for DSE 2024: Kim Ruhl
 
-Lecture 13 // Thursday, August 8 // 13:00&ndash;14:20
-
 **Status:** (7/30/2024) Readings are posted. Slides and code in the works...
+
+Lecture 13 // Thursday, August 8 // 13:00&ndash;14:20
 
 Hello! This repo will (eventually) contain all of the materials related to my presentation. 
 
