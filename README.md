@@ -19,7 +19,7 @@ The repo is organized by lecturers even when they give multiple lectures. The fo
 |:---|:--:|:-:|:-:|
 01_Miller | + | + | |
 02_Schjerning | + | + | + |
-03_Arcidiacono
+03_Arcidiacono | + | | + |
 04_Taber | | + | |
 05_Aguirregabiria | + | + | |
 06_Bonhomme | + | | |
