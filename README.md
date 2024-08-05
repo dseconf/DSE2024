@@ -23,7 +23,7 @@ The repo is organized by lecturers even when they give multiple lectures. The fo
 04_Taber | | + | |
 05_Aguirregabiria | + | + | |
 06_Bonhomme | + | | |
-07_Lentz
+07_Lentz | + | | |
 08_Corbae | + | + | |
 09_Guvenen | | + | |
 10_Pakes | + | | |
