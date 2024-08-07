@@ -11,6 +11,8 @@ The lecture is largely based around Alessandria, Arkolakis, and Ruhl (*Annual Re
 
 I have also added Alessandria, Choi, and Ruhl (*Journal of International Economics*, 2021) which provides a more in-depth study of the aggregate implications of modeling firms in international trade. We will not cover this in the presentation, but you might find it useful. 
 
+I have also added the compuational appendix to Alessandria and Choi "Establishment heterogeneity, exporter dynamics, and the effects of trade liberalization" (*Journal of International Economics*, 2014). There is a lot of great stuff in it. 
+
 Readings can be found in the "readings" folder in this repo.
 
 ## Slides
