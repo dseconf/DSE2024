@@ -14,7 +14,7 @@ I have also added Alessandria, Choi, and Ruhl (*Journal of International Economi
 Readings can be found in the "readings" folder in this repo.
 
 ## Slides
-I will try to upload the presentation slides at least 24 hours before the presentation. You can find them in the "slides" folder. 
+I have uploaded a draft of the slides (8/7/2024). I will likely make small updates to it before the presentation. I will upload the latest version before lunch on Thursday. 
 
 ## Code
 I am fortunate to have [Xing Xu](https://github.com/2xu2) working with me on various projects. He is putting together some jupyter notebooks (in Julia) that walk us through some of the models. This code will be available in the "code" folder in this repo.
