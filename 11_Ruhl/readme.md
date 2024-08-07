@@ -1,6 +1,6 @@
 # Materials for DSE 2024: Kim Ruhl
 
-**Status:** (7/30/2024) Readings are posted. Slides and code in the works...
+**Status:** (8/7/2024) Readings and slides are posted. Code is still in the works...
 
 Lecture 13 // Thursday, August 8 // 13:00&ndash;14:20
 
