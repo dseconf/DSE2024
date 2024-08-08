@@ -6,7 +6,7 @@
 
 ### Slides and code
 - See in slides and practicum folders
-- They require the use of Juptyter notebooks with Julia (see [https://datatofish.com/add-julia-to-jupyter/](https://datatofish.com/add-julia-to-jupyter/)
+- They require the use of Juptyter notebooks with Julia (see [https://datatofish.com/add-julia-to-jupyter/](https://datatofish.com/add-julia-to-jupyter/))
 
 ### Additional materials with readings, slides, and code
 - [Electricity Markets Crash Course](https://mreguant.github.io/em-course), by Mar Reguant
