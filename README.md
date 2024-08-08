@@ -27,9 +27,9 @@ The repo is organized by lecturers even when they give multiple lectures. The fo
 08_Corbae | + | + | |
 09_Guvenen | | + | |
 10_Pakes | + | | |
-11_Ruhl | | + | |
-12_Kang | | + | |
-13_Reguant | | + | |
+11_Ruhl | + | + | |
+12_Kang | + | + | |
+13_Reguant | + | + | + |
 14_Houde | + | + | |
 15_Jia_Barwick 
 16_Rust | | + | |
