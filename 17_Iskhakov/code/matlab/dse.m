@@ -1,10 +1,18 @@
 % This script runs Matlab assignments from the lecture on EGM and DC-EGM
-addpath('utils');
 
-m=model_deaton %create the model objects
+classdef dse
+methods (Static)
+
+%% Set up the problem
+function init()
+  addpath('utils');
+  m=model_deaton %create the model objects
+  assignin('base','m',m); % save the model in the workspace
+end
 
 %% Solve the model with VFI
-if 1
+function solve_vfi()
+  m=evalin('base','m'); % grab the model from the workspace
   fprintf('\nSolving %s with value function iterations:\n',m.label)
   tic
   m.solve_vfi;
@@ -15,8 +23,11 @@ end
 %%
 
 %% Solve the model with EGM
-if 0
-  K=100;
+function solve_egm(K)
+  if ~exist('K','var')
+    K=100;
+  end
+  m=evalin('base','m'); % grab the model from the workspace
   fprintf('\nSolving %s with EGM %d times:\n',m.label,K)
   tic
   for i=1:K
@@ -25,11 +36,13 @@ if 0
   end
   t=toc;
   fprintf('\nDone in %s, on avarage %s per run\n',ht(t),ht(t/K))
+  m.plot('policy');
 end
 %%
 
 %% Simulate some data
-if 0
+function simulate
+  m=evalin('base','m'); % grab the model from the workspace
   m.solve_egm;
   m.nsims=100;
   m.sim;
@@ -40,14 +53,13 @@ end
 %%
 
 %% Simulate flat consumption paths
-if 0
+function make_it_flat
+  m=evalin('base','m'); % grab the model from the workspace
   m.df=1/(1+m.r);
   m.sigma=0;
   m.init=[30 35];
   m.nsims=2;
   % m.solve_egm;
-  % m.sim;
-  % m.plot('sim consumption');
   m.solve_vfi;
   m.sim;
   m.plot('sim consumption');
@@ -55,17 +67,17 @@ end
 %%
 
 %% EGM with value functions
-if 0
+function solve_egm_vf
+  m=evalin('base','m'); % grab the model from the workspace
   m.inc0=2.5;
   m.solve_egm(true);
   m.plot('solution');
   m.plot('value');
-
 end
 
 
 %% Flat simulated consumption path using retirement model without taste shocks
-if 0
+function retirement_make_it_flat
   m2=model_retirement;
   m2.ngridm=500;
   m2.df=1/(1+m2.r); %flat consumption hopefully
@@ -84,11 +96,13 @@ if 0
   m2.plot('sim consumption');
   ylim=get(gca,'Ylim');
   set (gca,'Ylim',[min(min(m2.sims.consumption))-ylim(2)+max(max(m2.sims.consumption)),ylim(2)]);
+  assignin('base','m2',m2); % save the model in the workspace
 end
 %%
 
 %% Retirement model with taste shocks
-if 0
+function retirement_shocks
+  m2=evalin('base','m2'); % grab the model from the workspace
   m2.sigma=0.35;
   m2.lambda=0.2; %some EV taste shocks
   tic
@@ -105,3 +119,5 @@ if 0
   fprintf('Simulation plots for retirement model produced\n')
 end
 
+end %methods
+end %classdef
