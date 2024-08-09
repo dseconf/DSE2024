@@ -31,8 +31,8 @@ The repo is organized by lecturers even when they give multiple lectures. The fo
 12_Kang | + | + | |
 13_Reguant | + | + | + |
 14_Houde | + | + | |
-15_Jia_Barwick 
-16_Rust | | + | |
+15_Jia_Barwick | + | | |
+16_Rust | + | + | + |
 17_Iskhakov | + | + | + |
 
 
